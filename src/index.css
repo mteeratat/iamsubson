@@ -22,9 +22,21 @@ code {
     justify-content: center;
 }
 
-#home-element {
+#main-background {
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+}
+
+#range {
+    cursor: pointer;
+    height: fit-content;
+}
+
+.element {
     display: grid;
     align-items: center;
+    justify-content: center;
 }
 
 .button-55 {

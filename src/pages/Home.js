@@ -1,10 +1,19 @@
+import React from "react";
+// import ReactDOM from 'react-dom/client';
+import { useNavigate } from "react-router-dom";
+// import Main from "./Main"
+
 function Home(){
     const welcome = "Welcome, confused souls";
+    const welcome2 = "If you're feeling lost, maybe you can find your answer here"
     // document.body.style.width = '100%';
     // document.body.style.margin = 0;
     // document.documentElement.style.width = '100%';  
     // document.documentElement.style.margin = 0;
     // document.body.style.backgroundColor = 'lime';
+
+    const navigate = useNavigate();
+    
     return (
         // <div style={{
         //     backgroundImage: "url(/sun.jpg)",
@@ -22,9 +31,10 @@ function Home(){
             //     justifyContent: 'center',
             // }}>
         <div id="home-background">  
-            <div id="home-element">
+            <div class="element">
                 <h1>{welcome}</h1>
-                <button class="button-55" >Get some advice</button>
+                <h2>{welcome2}</h2>
+                <button class="button-55" onClick={() => navigate('/main', { replace: true })}>find</button>
             </div>
         </div>
     );
