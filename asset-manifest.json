@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/iamsubson/static/css/main.fd0a7824.css",
+    "main.js": "/iamsubson/static/js/main.62328949.js",
+    "static/media/sun.jpg": "/iamsubson/static/media/sun.8e80af1b6469e83aebda.jpg",
+    "index.html": "/iamsubson/index.html",
+    "main.fd0a7824.css.map": "/iamsubson/static/css/main.fd0a7824.css.map",
+    "main.62328949.js.map": "/iamsubson/static/js/main.62328949.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd0a7824.css",
+    "static/js/main.62328949.js"
+  ]
+}
